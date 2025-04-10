@@ -1,0 +1,18 @@
+{
+    "crop1": [
+        "wheat"
+    ],
+    "crop2": [
+        "carrots",
+        "potatoes"
+    ],
+    "crop3": [
+        "beetroots"
+    ],
+    "crop3__bush": {
+        "model": "crop1",
+        "blocks": [
+            "sweet_berry_bush"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "multipart": [
+        {
+            "when": {"age": 0},
+            "apply": [{"model": "block/%name%_stage0"}]
+        },
+        {
+            "when": {"age": 1},
+            "apply": [{"model": "block/%name%_stage1"}]
+        },
+        {
+            "when": {"age": 2},
+            "apply": [{"model": "block/%name%_stage2"}]
+        },
+        {
+            "when": {"age": 3},
+            "apply": [{"model": "block/%name%_stage3"}]
+        },
+        {
+            "when": {"age": 3},
+            "apply": [{"model": "block/%template%"}]
+        },
+        {
+            "when": {"age": 3},
+            "apply": [{"model": "block/bang"}]
+        }
+    ]
+}
