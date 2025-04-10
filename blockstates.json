@@ -14,5 +14,11 @@
         "blocks": [
             "sweet_berry_bush"
         ]
+    },
+    "pitcher_crop": {
+        "model": "h_pitcher_crop",
+        "blocks": [
+            "pitcher_crop"
+        ]
     }
 }
